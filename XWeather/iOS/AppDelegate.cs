@@ -26,6 +26,13 @@ namespace XWeather.iOS
 			return true;
 		}
 
+		/// <summary>
+		/// My COmment
+		/// </summary>
+		/// <returns><c>true</c>, if URL was opened, <c>false</c> otherwise.</returns>
+		/// <param name="app">App.</param>
+		/// <param name="url">URL.</param>
+		/// <param name="options">Options.</param>
 		public override bool OpenUrl (UIApplication app, NSUrl url, NSDictionary options)
 		{
 			Distribute.OpenUrl (url);
