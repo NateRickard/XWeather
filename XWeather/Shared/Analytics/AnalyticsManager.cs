@@ -334,11 +334,6 @@ namespace XWeather
 		#region Utilities
 
 
-		/// <summary>
-		/// This is my comment explainging what this method does.
-		/// </summary>
-		/// <param name="name">Name.</param>
-		/// <param name="properties">Properties.</param>
 		static void trackEvent (string name, IDictionary<string, string> properties = null)
 		{
 			if (!string.IsNullOrEmpty (Constants.PrivateKeys.MobileCenter.AppSecret) && MobileAnalytics.Enabled)
