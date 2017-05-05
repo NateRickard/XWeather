@@ -37,6 +37,8 @@ namespace XWeather.iOS
 		{
 			base.ViewWillAppear (animated);
 
+			//throw new System.Exception ("The app has crashed!!!");
+
 			mapView.UserTrackingMode = MKUserTrackingMode.None;
 			mapView.Camera.Altitude = 500000;
 
